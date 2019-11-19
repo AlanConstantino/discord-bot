@@ -1,0 +1,31 @@
+{
+    "help" :
+    [
+        "This is a simple bot that allows you to add streamers to a list.",
+        "You can then manually check if a streamer in your list is live or not.\n",
+        "When you type the following command it will tell you who is live and who isn't live on Twitch.",
+        "```!live```",
+        "Example usage:",
+        "```!add loltyler1```",
+        "The above command adds the streamer loltyler1 to your streamer list.\n",
+        "You can also add more than one streamer at a time.",
+        "```!add summit1g trick2g lirik```",
+        "The remove command simply removes the streamer you specify from your list.",
+        "```!remove loltyler1```",
+        "Just like the add command, you can remove more than one streamer at a time.",
+        "```!remove summit1g trick2g lirik```",
+        "\nType '!commands' to bring up a list of commands."
+    ],
+
+    "commands" :
+    [
+        "!commands - list of commands",
+        "!help - explains how this bot works",
+        "!add [streamer name]* - add a streamer to the list",
+        "!remove [streamer name]* - remove a streamer from the list",
+        "!remove_all - remove all streamers from list",
+        "!list - list all streamers within your current list",
+        "!live - manually check to see who is live and who isn't from your list\n",
+        "* means you can add more than one"
+    ]
+}
